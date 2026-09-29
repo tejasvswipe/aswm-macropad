@@ -1,4 +1,5 @@
-#  Tejas Macropad: Ultimate EditionThis macro pad goes *so* hard. Powered by an ESP32-S3 with that **N8R8 main character energy**, it packs 8 mechanical keys, a silky rotary encoder, dual OLEDs running through an I2C mux, and 11 addressable RGB LEDs to maximize your desk aesthetics. It’s giving peak productivity. 
+#  Tejas Macropad: 
+Ultimate EditionThis macro pad goes *so* hard. Powered by an ESP32-S3 with that **N8R8 main character energy**, it packs 8 mechanical keys, a silky rotary encoder, dual OLEDs running through an I2C mux, and 11 addressable RGB LEDs to maximize your desk aesthetics. It’s giving peak productivity. 
 ---##  The Setup (Pin Mapping)>  **No Cap:** Go verify these pins in your KiCad netlists before you cook your board. 
 
 | Component | What it do | GPIO | Receipts |
@@ -54,24 +55,7 @@ Data streams down the serial pipeline using a super clean, low-overhead Tab-Sepa
 
 * **Time:** `T \t <local epoch>`
 * **Audio:** `V \t <volume_int> \t <mute_bool>`
-* **Spotify:** `S \t <is_playing> \t <position_ms> \t <duration_ms> \t <track_title> \t <artist_name>`
-
----
-
-## 🛑 Schematic Vibe Check (Fix before ordering!)
-> ⚠️ **Major Red Flags:** The circuit is currently acting up. Do not order your PCBs until these design flaws are completely canceled.
-
-* [ ] **Logic Level Shift:** The WS2812B LEDs are running on `5V` but your ESP32-S3 is throwing `3.3V` logic signals (it needs at least 3.5V to hit). Add a **74AHCT1G125** level shifter or slide a 330 Ω resistor on the data line and pray.
-* [ ] **No Battery Power for LEDs:** The LEDs only get juice from the USB rail. If you unplug, the lights go pitch black. Add a 5V boost converter if you want wireless glow.
-* [ ] **Missing Caps:** You forgot to put a 100nF decoupling capacitor next to *every single* WS2812B LED. Fix it.
-* [ ] **I2C Bus is Starving:** Only the SDA line has a pull-up resistor (`R8`). Both `SDA` and `SCL` need a 4.7 kΩ pull-up connected directly to the `3V3` rail or the screens won't turn on.
-* [ ] **Reset Circuitry Missing:** Give your ESP32 `EN` pin a proper 10k pull-up + 1μF capacitor combo. Also, add physical `BOOT` and `RESET` tactile buttons so you can actually flash the code.
-* [ ] **USB-C Catfish:** Your schematic uses a USB-C *Plug* symbol instead of a **Receptacle** footprint. Double check that USB `D+` and `D-` go straight to `GPIO20` and `GPIO19`.
-* [ ] **LiPo Charger Danger:** Connect the **TP4056** `TEMP` pin to `GND` if you aren't using a battery thermistor. *PSA:* The TP4056 has no over-discharge cutoff—make sure your LiPo battery has a built-in protection board or it's over.
-* [ ] **Blank Component Values:** Fill out the ghost values for `R8`, `C1`, `C2`, `C5`, and `C6` inside KiCad before generating the BOM.
-* [ ] **PSRAM Pin Conflict:** The Octal PSRAM (`N8R8`) hoards `GPIO33` through `GPIO37` for itself. Make sure those traces around `IO35-37` are completely floating.
-
----
+* **Spotify:** `S \t <is_playing> \t <position_ms> \t <duration_ms> \t <track_title> \t <artist_name>
 
 ## 📦 How to Boot Up
 
