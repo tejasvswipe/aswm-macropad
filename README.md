@@ -1,5 +1,5 @@
 #  hackpad: 
-Ultimate Edition This macro pad goes *so* hard. Powered by an ESP32-S3 with that **N8R8 main character energy**, it packs 8 mechanical keys, a silky rotary encoder, dual OLEDs running through an I2C mux, and 11 addressable RGB LEDs to maximize your desk aesthetics. It’s giving peak productivity. 
+UltimateEdition This macro pad goes *so* hard. Powered by an ESP32-S3 with that **N8R8 main character energy**, it packs 8 mechanical keys, a silky rotary encoder, dual OLEDs running through an I2C mux, and 11 addressable RGB LEDs to maximize your desk aesthetics. It’s giving peak productivity. 
 ---##  The Setup (Pin Mapping)>  **No Cap:** Go verify these pins in your KiCad netlists before you cook your board. 
 
 | Component | What it do | GPIO | Receipts |
