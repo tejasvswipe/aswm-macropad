@@ -21,6 +21,10 @@ inline void ledsUpdate(bool muted) {
   uint32_t now = millis();
   if (now - last < 20) return;
   last = now;
+#ifdef LED_WALK_TEST
+  for (uint8_t i = 0; i < LED_COUNT; i++) strip.setPixelColor(i, i == (now / 700) % LED_COUNT ? strip.Color(255,255,255) : 0);
+  strip.show(); return;
+#endif
   for (uint8_t i = 0; i < LED_COUNT; i++) {
     uint32_t c;
     if (now < flashUntil[i]) {
