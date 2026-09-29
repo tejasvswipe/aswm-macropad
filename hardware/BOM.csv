@@ -1,0 +1,21 @@
+Ref,Qty,Value / Part,Footprint note,Status
+U2 (ESP32),1,ESP32-S3-WROOM-1-N8R8 (or N16R2),Module,OK
+U3,1,TCA9548APWR,TSSOP-24,OK
+U11,1,AP2112K-3.3,SOT-23-5,OK
+U2 (charger),1,TP4056-42-ESOP8,ESOP-8 (exposed pad to GND),OK
+J1,1,USB-C 16-pin RECEPTACLE (not plug),"Schematic symbol says USB_C_Plug - make sure footprint is a receptacle",VERIFY
+BT1,1,3.7V LiPo WITH protection circuit,JST-PH 2-pin,OK
+DS1 DS2,2,SSD1306 128x64 I2C OLED,"Bare 30-pin panel needs the cap network C1/C2/C5/C6; a 4-pin module does not",VERIFY
+D7-D10 D12-D18,11,WS2812B 5050,"Order D13 D14 D15 D16 D17 D18 D12 D10 D9 D8 D7",OK
+(each LED),11,100nF 0603,One decoupling cap per WS2812B (missing in schematic),ADD
+SW1 SW2 SW3 SW4 SW6 SW7 SW8 SW9,8,Cherry MX compatible switch (+hot-swap sockets optional),SW1 is drawn as SW_Push - confirm footprint,OK
+S1/S2,1,EC11 rotary encoder with push switch,Through-hole,OK
+R1,1,1.2k 0603,TP4056 PROG = ~1A charge,OK
+R2 R5,2,5.1k 0603,USB-C CC1/CC2 pulldowns,OK
+R6 R7,2,1k 0603,Charge LED resistors,OK
+D1 D2,2,LED red / green 0603,CHRG / STDBY,OK
+R8,1,4.7k (I2C pull-up SDA),Value is blank in schematic; ALSO add one on SCL,VERIFY
+C3 C4,2,10uF 0603,LDO in/out,OK
+C1 C2 C5 C6,4,1uF (check panel datasheet),Values blank in schematic,VERIFY
+EN pull-up,1,10k + 1uF on ESP32 EN,Not visible in schematic,ADD
+BOOT/RESET,2,Tact switches to GPIO0 / EN,Needed for first flash if no USB auto-reset,ADD
