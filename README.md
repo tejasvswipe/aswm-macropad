@@ -30,7 +30,7 @@ Screen 1 (DS1): Time, date, and visual slider. Clean.
 Screen 2 (DS2): Spotify ticker (Title, Artist, and track progress tracker).
 ---
 
-## 🚀 The Roadmap (Let Him Cook)
+#### 🚀 The Roadmap (Let Him Cook)
 
 Phase 1 Phase 2 Phase 3 Phase 4 Phase 5
 ┌─────────┐ ┌─────────┐ ┌─────────┐ ┌─────────┐ ┌─────────┐
