@@ -37,8 +37,8 @@ Phase 1 Phase 2 Phase 3 Phase 4 Phase 5
 │ USB │ ────> │ Inputs │ ────> │ RGB FX │ ────> │ Screens │ ────> │ Companion│
 │ Vibes │ │ Secured │ │ Activated│ │ In Sync │ │ Script │
 └─────────┘ └─────────┘ └─────────┘ └─────────┘ └─────────┘
-
-Phase 1: Native USB Stack - Implement HID Keyboard + Media Control + CDC Serial. (Files: `src/main.cpp`, `platformio.ini`)
+-----------------
+  Phase 1: Native USB Stack - Implement HID Keyboard + Media Control + CDC Serial. (Files: `src/main.cpp`, `platformio.ini`)
 Phase 2: Input Engine - Software debouncing of the keys + High-priority interrupt loop for encoder (so it never misses a step). (Files: `src/main.cpp`, `src/config.h`)
 Phase 3: Chroma Lighting - Rainbow cycle when idle, fast white flash on key-press, and low-key red breathing animation when muted. (Files: `src/leds.h`)
 Phase 4: Dual-Screen flex - Drive two identical screens (`0x3C`) using a TCA9548A multiplexer. We isolated the drawing code completely to Core 0 to prevent UI lag while playing games. (Files: `src/ui.h`)
