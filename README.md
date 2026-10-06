@@ -1,7 +1,7 @@
 # hackpad 
 ## show rather then tell 
 ### used xiao  rp2040 , 16 keys ,roatary incoder ,  and some stuff from my  side
-<img width="1600" height="1600" alt="hackpad16_back" src="https://github.com/user-attachments/assets/34f5a0dc-c1e5-457e-9f68-da388b1ca364" /><img width="1754" height="1241" alt="hackpad16_schematic_preview" src="https://github.com/user-attachments/assets/30f209fe-e5d3-442a-a576-86df51ac5ee3" /><img width="1772" height="962" alt="hackpad16_pcb_preview" src="https://github.com/user-attachments/assets/23a88b0f-6ca2-4040-93f9-4c9f7bc979d1" />
+<img width="160" height="160" alt="hackpad16_back" src="https://github.com/user-attachments/assets/34f5a0dc-c1e5-457e-9f68-da388b1ca364" /><img width="1754" height="1241" alt="hackpad16_schematic_preview" src="https://github.com/user-attachments/assets/30f209fe-e5d3-442a-a576-86df51ac5ee3" /><img width="1772" height="962" alt="hackpad16_pcb_preview" src="https://github.com/user-attachments/assets/23a88b0f-6ca2-4040-93f9-4c9f7bc979d1" />
 <img width="378" height="378" alt="hackpad16_front" src="https://github.com/user-attachments/assets/08f3ddca-d669-48c4-a3d0-2340478d29da" />
 <img width="378" height="378" alt="hackpad16_back" src="https://github.com/user-attachments/assets/ea7ced58-6b6c-46be-a7af-6f5e4cbe50f7" />
 
