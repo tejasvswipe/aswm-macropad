@@ -1,0 +1,9 @@
+Quantity,Part,Specification / notes,Reference link
+1,XIAO RP2040,Seeed XIAO RP2040 module,https://wiki.seeedstudio.com/XIAO-RP2040/
+16,Mechanical key switch,MX-compatible 1U; select preferred switch,https://www.digikey.in/en/products/result?keywords=MX%20keyboard%20switch
+16,Signal diode,1N4148 through-hole,https://www.onsemi.com/pdf/datasheet/1n4148-d.pdf
+1,Rotary encoder with push switch,EC11E-compatible; verify shaft and bushing variant,https://www.digikey.in/en/products/result?keywords=EC11E%20encoder
+16,Keycap,MX-compatible 1U,https://www.digikey.in/en/products/result?keywords=1U%20MX%20keycap
+4,Case fastener,M3 x 10 mm for plate/PCB/standoff stack; confirm fit,https://www.digikey.in/en/products/result?keywords=M3%2010mm%20screw
+4,Hatch fastener,M2 x 6 mm self-tapping screw,https://www.digikey.in/en/products/result?keywords=M2%206mm%20self%20tapping%20screw
+1 set,Printed case,Lower tray and switch plate; hatch; bezel and badge optional,CAD/blender_design/README.md
