@@ -1,4 +1,4 @@
-#hackpad 
+# hackpad 
 ## show rather then tell 
 ### used xiao  rp2040 , 16 keys ,roatary incoder ,  and some stuff from my  side
 <img width="1600" height="1600" alt="hackpad16_back" src="https://github.com/user-attachments/assets/34f5a0dc-c1e5-457e-9f68-da388b1ca364" /><img width="1754" height="1241" alt="hackpad16_schematic_preview" src="https://github.com/user-attachments/assets/30f209fe-e5d3-442a-a576-86df51ac5ee3" /><img width="1772" height="962" alt="hackpad16_pcb_preview" src="https://github.com/user-attachments/assets/23a88b0f-6ca2-4040-93f9-4c9f7bc979d1" />
