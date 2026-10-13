@@ -28,5 +28,3 @@ openscad -o hackpad16_badge.stl -D 'part="hackpad16_badge"' hackpad16_case.scad
 - Top plate: 3 mm thick
 - Switch layout: 4 × 4 at 19.05 mm pitch; 14.4 mm openings
 - PCB mounting holes follow the asymmetric positions encoded in the source
-
-Dimensions and component clearances are a starting point, not a verified fit. Test-print a switch opening and verify the exact PCB, switches, encoder, USB-C plug, screw lengths, and printer tolerances before printing the full enclosure. Raised badge lettering depends on an installed Liberation Sans font; choose another installed font in the source if needed.
