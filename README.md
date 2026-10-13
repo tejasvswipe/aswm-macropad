@@ -21,3 +21,8 @@
 
 | Bot Keys | SW6 / SW8 / SW9 | `GPIO39` / `GPIO38` / `GPIO21` | swap these keys if they do dumb things |
 rt tracking your Spotify streams?
+
+
+## Case CAD
+
+The editable enclosure model is in [CAD/openscad_design](CAD/openscad_design/README.md). Open the `.scad` file with OpenSCAD to inspect or modify the design and export the individual printable parts as STL.

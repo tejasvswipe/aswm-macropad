@@ -6,4 +6,4 @@ Quantity,Part,Specification / notes,Reference link
 16,Keycap,MX-compatible 1U,https://www.digikey.in/en/products/result?keywords=1U%20MX%20keycap
 4,Case fastener,M3 x 10 mm for plate/PCB/standoff stack; confirm fit,https://www.digikey.in/en/products/result?keywords=M3%2010mm%20screw
 4,Hatch fastener,M2 x 6 mm self-tapping screw,https://www.digikey.in/en/products/result?keywords=M2%206mm%20self%20tapping%20screw
-1 set,Printed case,Lower tray and switch plate; hatch; bezel and badge optional,CAD/blender_design/README.md
+1 set,Printed case,Lower tray and switch plate; hatch; bezel and badge optional,CAD/openscad_design/README.md
