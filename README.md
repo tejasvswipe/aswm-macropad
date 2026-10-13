@@ -18,7 +18,7 @@
 
 | Function | Signals | GPIO |
 |---|---|---|
-| Display mux | SDA / SCL | GPIO8 / GPIO9 |
+| Display mux optional | SDA / SCL | GPIO8 / GPIO9 |
 | Neon lighting | WS2812B data | GPIO4 |
 | Rotary encoder | A / B / switch | GPIO5 / GPIO6 / GPIO7 |
 | Top keys | SW1 / SW2 | GPIO1 / GPIO2 |
